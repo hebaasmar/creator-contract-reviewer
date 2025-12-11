@@ -170,15 +170,15 @@ function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
       <section className="max-w-6xl mx-auto px-4 pt-16 pb-24 text-center">
         <div className="inline-flex items-center gap-2 bg-indigo-50 text-indigo-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
           <Sparkles className="w-4 h-4" />
-          AI-Powered Contract Analysis
+          AI-Powered Contract Analysis for Creators
         </div>
         <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-          Understand Your Contracts<br />
+          Protect Your Creative Career<br />
           <span className="text-indigo-600">Before You Sign</span>
         </h1>
         <p className="text-xl text-slate-600 max-w-2xl mx-auto mb-10">
-          Don&apos;t let confusing legal jargon cost you. Get instant, plain-English
-          analysis of any creator contract with red flag alerts and negotiation tips.
+          Musicians, YouTubers, influencers, and content creators: don&apos;t sign away your rights.
+          Get instant AI analysis of brand deals, sync licenses, record deals, and sponsorship contracts.
         </p>
         <button
           onClick={onGetStarted}
@@ -193,28 +193,28 @@ function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
       {/* Features */}
       <section className="max-w-6xl mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-slate-900 text-center mb-12">
-          Everything you need to sign with confidence
+          Built for creators who want to protect their work
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <FeatureCard
             icon={<FileText className="w-6 h-6" />}
             title="Plain-English Summary"
-            description="Get a clear breakdown of what the contract actually says, without the legal jargon."
+            description="Understand exactly what your brand deal, management agreement, or record contract actually means."
           />
           <FeatureCard
             icon={<AlertTriangle className="w-6 h-6" />}
             title="Red Flag Detection"
-            description="Automatically identify problematic clauses with severity ratings so you know what to watch out for."
+            description="Spot unfair exclusivity clauses, revenue splits, IP grabs, and perpetual licenses before they cost you."
           />
           <FeatureCard
             icon={<CheckCircle className="w-6 h-6" />}
             title="Negotiable Terms"
-            description="Discover which terms are commonly negotiated and get suggestions for better alternatives."
+            description="Learn which sponsorship rates, sync fees, and royalty terms creators commonly push back on."
           />
           <FeatureCard
             icon={<MessageSquare className="w-6 h-6" />}
             title="Questions to Ask"
-            description="Get a list of specific questions to ask the other party before signing."
+            description="Get specific questions to ask brands, labels, or managers before you commit to any deal."
           />
         </div>
       </section>
@@ -248,11 +248,11 @@ function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
       {/* CTA */}
       <section className="max-w-6xl mx-auto px-4 py-20 text-center">
         <h2 className="text-3xl font-bold text-slate-900 mb-6">
-          Ready to understand your contract?
+          Don&apos;t sign that brand deal or record contract blind
         </h2>
         <p className="text-xl text-slate-600 mb-10 max-w-2xl mx-auto">
-          Join thousands of creators who review their contracts before signing.
-          Protect your content, your rights, and your future.
+          Whether it&apos;s a sync license, sponsorship agreement, or management contract—get
+          AI-powered insights in seconds. Protect your music, your content, and your career.
         </p>
         <button
           onClick={onGetStarted}
